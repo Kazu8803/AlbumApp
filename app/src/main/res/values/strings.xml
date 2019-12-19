@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">AlbumApp</string>
+    <string name="loginTitleText">LOGIN</string>
+    <string name="rememberCheckboxText">Lembrar</string>
+    <string name="loginButtonText">ENTRAR</string>
+    <string name="emailLoginInputText">E-mail</string>
+    <string name="passwordLoginInputText">Senha</string>
+    <string name="askToRegisterAccountTextView">Cadastrar conta</string>
+    <string name="nameText">Nome</string>
+    <string name="surnameText">Sobrenome</string>
+    <string name="repeatPasswordText">Repetir Senha</string>
+    <string name="createAccountText">Criar Conta</string>
+    <string name="buyText">COMPRAR</string>
+    <string name="returnToLoginText">Retornar a tela de login</string>
+    <string name="userPersistKey">user_logged</string>
+    <string name="logoutText">Sair</string>
+    <string name="imageToTransit">Image To Transit</string>
+    <string name="addCartText">Adicionar no carrinho</string>
+    <string name="freeShipText">Frete grátis</string>
+    <string name="messageShipText">Saiba os prazos de entrega e as formas de envio</string>
+    <string name="freeReturnText">Devolução grátis</string>
+    <string name="messageReturnText">Você tem 30 dias a partir do recebimento</string>
+    <string name="guaranteedBuyText">Compra garantida, receba o produto que está esperando ou devolvemos o dinheiro.</string>
 </resources>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemDescriptionScrollViewLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/itemDescriptionLayout"
+    android:paddingLeft="9dp">
+
+    <TextView
+        android:id="@+id/productNameItemDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="27dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="280dp"
+        android:layout_margin="2dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:id="@+id/imageItemDescription"
+        android:transitionName="@string/imageToTransit"
+        />
+
+    <TextView
+        android:id="@+id/priceItemDescriptionTextView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="22dp"
+        android:textColor="@color/colorBlack"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/payWithCreditCardSubLayout">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_credit_card_black_24dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/priceDividedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/messageShippingSubLayout"
+        android:layout_marginTop="15dp"
+        >
+
+        <ImageView
+            android:id="@+id/truckIcon"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_local_shipping_black_24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/freeShipTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/truckIcon"
+            android:layout_alignParentTop="true"
+            android:text="@string/freeShipText"
+            />
+
+        <TextView
+            android:id="@+id/messageShipTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/truckIcon"
+            android:layout_below="@+id/freeShipTextView"
+            android:text="@string/messageShipText"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/messageReturnProductSubLayout"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/returnIcon"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_return_24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/freeReturnTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/returnIcon"
+            android:layout_alignParentTop="true"
+            android:text="@string/freeReturnText"
+            />
+
+        <TextView
+            android:id="@+id/messageReturnTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/returnIcon"
+            android:layout_below="@+id/freeReturnTextView"
+            android:text="@string/messageReturnText"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="13dp">
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:id="@+id/buyItemDescriptionButton"-->
+<!--            android:layout_width="127dp"-->
+<!--            android:layout_height="45dp"-->
+<!--            android:layout_margin="4dp"-->
+<!--            android:background="@drawable/login_button_background"-->
+<!--            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"-->
+<!--            android:textSize="14dp"-->
+<!--            android:textColor="@color/colorBlack"-->
+<!--            android:drawableStart="@drawable/ic_attach_money_black_24dp"-->
+<!--            android:textAlignment="center"-->
+<!--            android:text="@string/buyText"/>-->
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:id="@+id/addCartItemDescriptionButton"-->
+<!--            android:layout_width="167dp"-->
+<!--            android:layout_height="45dp"-->
+<!--            android:layout_margin="4dp"-->
+<!--            android:background="@drawable/add_cart_button"-->
+<!--            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"-->
+<!--            android:textSize="14dp"-->
+<!--            android:textColor="@color/colorBlack"-->
+<!--            android:drawableLeft="@drawable/ic_add_shopping_cart_black_24dp"-->
+<!--            android:text="@string/addCartText"/>-->
+
+
+        <Button
+            android:id="@+id/buyItemDescriptionButton"
+            android:layout_width="127dp"
+            android:layout_height="45dp"
+            android:layout_margin="4dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/login_button_background"
+            android:drawableStart="@drawable/ic_attach_money_black_24dp"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:text="@string/buyText" />
+
+        <Button
+            android:id="@+id/addCartItemDescriptionButton"
+            android:layout_width="167dp"
+            android:layout_height="45dp"
+            android:layout_margin="4dp"
+            android:paddingLeft="18dp"
+            android:background="@drawable/add_cart_button"
+            android:drawableLeft="@drawable/ic_add_shopping_cart_black_24dp"
+            android:text="@string/addCartText" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/guaranteedBuyMessageSubLayout">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:src="@drawable/smile_24dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/guaranteedBuyMessageTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/guaranteedBuyText"
+            android:textSize="13dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

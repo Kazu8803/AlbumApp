@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="@color/colorWhite"
+    android:id="@+id/toolbarMenu">
+    <item
+        android:id="@+id/logoutMenu"
+        android:title="@string/logoutText"
+        />
+</menu>

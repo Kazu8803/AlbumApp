@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimenInputLoginEditTextRoundEdge">6dp</dimen>
+    <dimen name="dimenMarginItemTextView">7dp</dimen>
+    <dimen name="dimenMarginItemImage">10dp</dimen>
+    <dimen name="dimenItemImage">110dp</dimen>
+    <dimen name="dimenLoginButtonSizeText">20sp</dimen>
+    <dimen name="dimenLoginTitleTextViewSizeText">16dp</dimen>
+    <dimen name="dimenAskToRegisterAccountTextViewSizeText">15dp</dimen>
+</resources>

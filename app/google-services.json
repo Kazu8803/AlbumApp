@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "458427897599",
+    "firebase_url": "https://albumapp-35173.firebaseio.com",
+    "project_id": "albumapp-35173",
+    "storage_bucket": "albumapp-35173.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458427897599:android:8ee54feaa0c80e9f719eca",
+        "android_client_info": {
+          "package_name": "com.example.albumapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458427897599-dig08utc12inptohoih74b4vk2kr4h14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.albumapp",
+            "certificate_hash": "2e43b66c3e6b26711a7373bd0a5dea7f82ca5b34"
+          }
+        },
+        {
+          "client_id": "458427897599-7rv5dkhu3ehjgqv1mtjnmqbvqb84s306.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEhYxkfLPWevoQhl2O_BajVIWgs_i9j8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458427897599-7rv5dkhu3ehjgqv1mtjnmqbvqb84s306.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

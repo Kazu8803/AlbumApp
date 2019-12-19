@@ -3,4 +3,15 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorLightGray">#C9CAC5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorLightBlue">#46A3CF</color>
+    <color name="colorContourLightBlue">#6BB7D6</color>
+    <color name="colorRedSnackbar">#EB2929</color>
+    <color name="colorItemBackground">#A8CA87</color>
+    <color name="colorItemLayoutBackground">#55BFF0</color>
+    <color name="colorContourItemLayoutBackground">#26ACC4</color>
+    <color name="colorRecyclerDivider">#DCE3E6</color>
+    <color name="colorIconsDefault">#98979B</color>
 </resources>

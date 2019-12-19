@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/loginLayout">
+
+    <TextView
+        android:id="@+id/loginTitleTextView"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/loginTitleText"
+        android:textSize="@dimen/dimenLoginTitleTextViewSizeText"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"/>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailLoginInputEditText"
+        android:layout_gravity="center_vertical|center_horizontal"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_margin="7dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:padding="4dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/emailLoginEditText"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="@string/emailLoginInputText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/emailLoginEditText"-->
+<!--        android:layout_width="305dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_margin="7dp"-->
+<!--        android:padding="4dp"-->
+<!--        android:layout_gravity="center_vertical|center_horizontal"-->
+<!--        android:hint="@string/emailLoginInputText"-->
+<!--        android:inputType="textEmailAddress"-->
+<!--        android:background="@drawable/contour_login_edit_text"-->
+<!--        android:text="a"/>-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordLoginInputEditText"
+        android:layout_gravity="center_vertical|center_horizontal"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="305dp"
+        android:layout_height="50dp"
+        android:layout_margin="7dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:padding="4dp"
+            android:inputType="textPassword"
+            android:id="@+id/passwordLoginEditText"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="@string/passwordLoginInputText"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+<!--    <EditText-->
+<!--        android:id="@+id/passwordLoginEditText"-->
+<!--        android:layout_width="305dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_margin="7dp"-->
+<!--        android:padding="4dp"-->
+<!--        android:layout_gravity="center_vertical|center_horizontal"-->
+<!--        android:hint="@string/passwordLoginInputText"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:background="@drawable/contour_login_edit_text"-->
+<!--        android:text="a"/>-->
+
+    <CheckBox
+        android:id="@+id/rememberUserCheckBox"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="34dp"
+        android:text="@string/rememberCheckboxText" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/loginButtonText"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/dimenLoginButtonSizeText"
+        android:background="@drawable/login_button_background"/>
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/loginProgressBar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center_vertical|center_horizontal"-->
+<!--        android:visibility="invisible" />-->
+
+</LinearLayout>

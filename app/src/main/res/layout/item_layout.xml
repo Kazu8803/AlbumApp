@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp">
+<!--    android:layout_height="?attr/listPreferredItemHeight"-->
+<!--    android:background="@drawable/item_layout_background"-->
+    <ImageView
+        android:id="@+id/itemImageView"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_height="@dimen/dimenItemImage"
+        android:layout_width="@dimen/dimenItemImage"
+        android:layout_margin="@dimen/dimenMarginItemImage"
+        android:background="@drawable/item_image_background"
+        android:transitionName="@string/imageToTransit"
+        />
+
+    <TextView
+        android:id="@+id/productNameTextView"
+        android:layout_toRightOf="@+id/itemImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="7dp"
+        android:textSize="20dp"
+        tools:text="PRODUCT"
+        />
+
+
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_toRightOf="@+id/itemImageView"
+        android:layout_below="@+id/productNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimenMarginItemTextView"
+        android:textSize="15dp"
+        tools:text="PRICE"
+        />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_keyboard_left_arrow"/>
+<!--    android:layout_margin="@dimen/dimenMarginItemTextView"-->
+
+
+</RelativeLayout>
